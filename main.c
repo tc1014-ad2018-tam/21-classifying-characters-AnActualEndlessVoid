@@ -63,11 +63,12 @@ int main(void) {
             printf ("%c is a special character\n", arr[i]);
             especiales++;
         }
-    printf ("There are %i alphabets in the string\n",alfabetos);
-        printf ("\t Out of which %i are vowels, and %i are consonants\n", vocales,consonantes);
-        printf ("There are %i digits in the string \n", digitos);
-        printf ("There are %i spaces in the string\n", espacios);
-        printf ("There are %i special characters in the string\n", especiales);
     }
+
+    printf ("There are %i alphabets in the string\n",alfabetos);
+    printf ("\t Out of which %i are vowels, and %i are consonants\n", vocales,consonantes);
+    printf ("There are %i digits in the string \n", digitos);
+    printf ("There are %i spaces in the string\n", espacios);
+    printf ("There are %i special characters in the string\n", especiales);
     return 0;
 }
